@@ -34,11 +34,11 @@ require "function.php"; //carica tutto il file in memoria, e poi index.php
 
     $numero1 = 1; //inizializzazione
 
-    echo "<br>Valore: " . $numero1 ." euro"; //i punti vanno messi per i valori
+    echo '<br>Valore: ' . $numero1 . ' euro'; //i punti vanno messi per i valori se usi singoli apici
 
     $numero1 = "uno"; 
 
-    echo "<br>Valore: " . $numero1 ." euro"; //i punti vanno messi per i valori
+    echo "<br>Valore: $numero1 euro"; //se doppi allora dollaro come linux
 
     $somma;
     $numero1=2;
